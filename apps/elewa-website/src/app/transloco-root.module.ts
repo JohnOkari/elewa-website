@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { provideTransloco, TranslocoModule } from '@ngneat/transloco';
 
 import { TranslocoHttpLoader } from './transloco-loader';
-import { environment } from '../environments/environment';
+import { environment } from '../environments/environment.ts';
 
 @NgModule({
   exports: [ TranslocoModule ],
